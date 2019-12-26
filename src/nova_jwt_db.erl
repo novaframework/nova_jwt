@@ -4,7 +4,8 @@
                            id => integer(),
                            username => binary(),
                            password => binary(),
-                           permissions => [atom()]
+                           permissions => [atom()],
+                           _ := '_'
                           }.
 -export_type([nova_jwt_user/0]).
 
